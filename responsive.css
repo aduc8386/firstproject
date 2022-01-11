@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) and ( max-width: 1200px){
+	.nav-bar-item {
+		margin: 1.5rem 1rem;
+	}
+
+	.content-main:nth-child(even) .content-text{
+		order: 1;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.nav-bar-menu {
+		display: block;
+	}
+
+	.nav-bar-items {
+		display: none;
+	}
+
+	.content {
+		width: 100%;
+		margin-top: -20rem;
+		margin-left: 0;
+		margin-right: 0;
+		background-color: rgba(60,136,166,0.3);
+	}
+
+	.content-main:nth-child(even) .content-text{
+		order: 1;
+	}
+}
